@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Maç Sonucu</h2>
+
+<h2>Galatasaray - Fenerbahçe</h2>
+<p id="demo"></p>
+
+<button onclick="generateskor()">Skor</button>
+
+<script>
+function generateskor() {
+  
+  var galataskor = Math.floor(Math.random() * 11); 
+  var fenerskor = Math.floor(Math.random() * 11);   
+  
+  var result = "mac"; 
+  
+  
+  if (galataskor > fenerskor) {
+    result = "Galatasaray kazandı ";
+  } else if (fenerskor > galataskor) {
+    result = "Fenerbahçe kazandı ";
+  } else {
+    result = "Maç beraber ";
+  }
+  
+  
+  document.getElementById("demo").innerHTML = result + "Galatasaray: " + galataskor + " - Fenerbahçe: " + fenerskor;
+}
+</script>
+
+</body>
+</html>
+
+
