@@ -1,0 +1,11 @@
+Hafta 12:
+
+Basit bir maç sonucu tahmin uygulaması geliştirildi.  
+
+- Kullanıcı butona tıkladığında, Galatasaray ve Fenerbahçe için 0-10 arasında rastgele skorlar üretildi.  
+- Skorlara göre galip, mağlup ya da beraberlik durumu hesaplandı.  
+- Sonuç ve skorlar sayfada gösterildi.  
+
+Bu çalışma, JavaScript'te rastgele sayı üretme, koşullu ifadeler ve DOM manipülasyonu konularını kapsadı.  
+
+Ayrıca, projeye maç sonucu görseli eklendi.
