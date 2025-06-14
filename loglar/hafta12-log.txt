@@ -1,0 +1,7 @@
+Hafta 12:
+
+JavaScript kullanılarak maç sonucu rastgele oluşturuldu ve DOM üzerinden gösterildi.
+
+Fotoğraf eklendi.
+
+
